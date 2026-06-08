@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Research Homepage</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #333;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .paper {
+            margin-bottom: 25px;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+        .paper h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        .paper .venue {
+            font-weight: bold;
+            color: #667eea;
+            margin: 5px 0;
+        }
+        .paper .status {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .status.accepted {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status.oral {
+            background: #fff3cd;
+            color: #856404;
+        }
+        .paper .code-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 15px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        .paper .code-link:hover {
+            background: #5568d3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Research Homepage</h1>
+        <p>Researcher | Machine Learning | AI</p>
+    </div>
+
+    <div class="section">
+        <h2>Publications</h2>
+        
+        <div class="paper">
+            <h3>Ipsum Lorem is all you need</h3>
+            <div class="venue">COML 2026</div>
+            <span class="status accepted">Accepted</span>
+            <span class="status oral">Oral Presentation</span>
+            <p>Selected for oral presentation at the Conference on Machine Learning (COML 2026). Top ~1% of submissions.</p>
+            <a href="https://github.com/mingye-eigenai/ipsum-lorem-all-you-need" class="code-link" target="_blank">📦 Code</a>
+        </div>
+
+        <div class="paper">
+            <h3>Optimizing Large Language Models for Contextual Reasoning in Multi-Task Environments</h3>
+            <div class="venue">COAI 2026</div>
+            <span class="status accepted">Accepted</span>
+            <p>Accepted to the Conference on Artificial Intelligence (COAI 2026).</p>
+            <a href="https://github.com/mingye-eigenai/optimizing-llms-contextual-reasoning" class="code-link" target="_blank">📦 Code</a>
+        </div>
+
+        <div class="paper">
+            <h3>Ipsum Lorem is all you need for a workshop</h3>
+            <div class="venue">COMLW 2026</div>
+            <span class="status accepted">Accepted</span>
+            <p>Accepted to the COML Workshop on Large Language Models (COMLW 2026).</p>
+        </div>
+    </div>
+</body>
+</html>
